@@ -49,6 +49,7 @@ def playHangman(word):
                     print("Wrong!")
                     wrongLetters.append(letter)
                     chances = chances - 1
+    print()
 
 
 def handleFile():
