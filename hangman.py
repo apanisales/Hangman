@@ -22,7 +22,6 @@ def playHangman(word):
                 playerGuess = str.lower(input("What is your guess? "))
                 if playerGuess == word:
                     print("Correct! Good job!")
-                    print()
                     break
                 else:
                     print("Wrong!")
