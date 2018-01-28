@@ -1,4 +1,4 @@
-#Author: Anthony Panisales
+# Author: Anthony Panisales
 
 import random
 
@@ -59,7 +59,7 @@ def handleFile():
     filename = "hangmanWords.txt"
     file = open(filename, "r")
     for line in file:
-        #Makes sure that the words are at least three letters and are not names
+        # Makes sure that the words are at least three letters and are not names
         if not str.isupper(line[:1]):
             if len(line) > 2:
                 hangmanList.append(line.replace('\n', ""))
