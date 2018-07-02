@@ -1,6 +1,6 @@
 # Hangman
 
-* Implementation of the game Hangman. 
+Implementation of the game Hangman. 
 
 * The program reads most of the words found in the file hangmanWords.txt and after that, the words can be used for the game. 
 
