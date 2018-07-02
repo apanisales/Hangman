@@ -66,7 +66,6 @@ def playHangman(word):
                     chances = chances - 1
                     if chances == 0:
                         print("You lose! The word was '" + word + "'")
-
     print()
 
 def handleFile():
